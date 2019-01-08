@@ -1,5 +1,10 @@
-*~ 
-observatory/src/main/resources/* 
-observatory/project/project/* 
+*.class
+*.log
+*~
+observatory/src/main/resources/*
+observatory/project/project/*
 observatory/project/target/*
-observatory/target/*
+# Intellij
+.idea/
+*.iml
+*.iws
