@@ -40,3 +40,7 @@ case class CellPoint(x: Double, y: Double)
   */
 case class Color(red: Int, green: Int, blue: Int)
 
+/**Estaba en Extraction.scala y lo traje mejor acá*/
+case class StationKey(stn: Option[Int], wban: Option[Int])
+/**Estaba en Extraction.scala y lo traje mejor acá*/
+case class TempsLine(key: StationKey, month: Int, day: Int, temp: Double)
