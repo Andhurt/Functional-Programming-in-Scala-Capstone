@@ -1,5 +1,4 @@
-*~ 
-observatory/src/main/resources/* 
-observatory/project/project/* 
-observatory/project/target/*
-observatory/target/*
+*~
+observatory/src/main/resources/*
+observatory/project/project
+observatory/project/target
